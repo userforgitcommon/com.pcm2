@@ -1,0 +1,35 @@
+Before Moving the CE and FO code to Pipeline for the list:
+
+1. In Baseclass check for the String variables are Null
+2. In POM file make it as Parallel execution > Check for the Feature Folder
+3. In Feature file check for the tags. there should be only one tag.
+4. Check for the delay time in Feature file after Login.
+5. Comment the Individual run and enable the parallel run in POM file - Not Required
+6. Maven Clean should be committed.
+7. Enable Show Details error message in customerengagement.java file
+8.Check for Agreement Invoice Scenario data update in config file
+9.Delete Product in WorkOrder 04604 in Dev Test for calculation.
+10.Check whether DevTest or Dev Run. Update in Line 47/116/2576 for DevTest and next lines for Dev.
+11.Check for Transaction Type is null for On Account and Fee. - Not applicable now.
+12. In Read Config update it to config.properties
+13. Project Hierarchy tab should be expanded
+
+Dev Changes to be done:
+
+12. Check for the Add Product Tag untill it moved to Dev Test.
+13. Delete Product in WorkOrder 02956 in Dev Test for calculation.
+14.Check whether DevTest or Dev Run. Update in Line 47/116/2576 for DevTest and next lines for Dev.
+15. In Read Config update it to config2.properties
+
+
+
+
+git bash here
+
+git status
+git add --all
+git status
+git commit -m "Code Update"
+git push -u origin master
+or
+git push origin HEAD:master

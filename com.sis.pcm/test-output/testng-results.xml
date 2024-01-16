@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-16T17:10:37 CET" name="Default suite" finished-at="2023-11-16T17:10:54 CET" duration-ms="17014">
+    <groups>
+    </groups>
+    <test started-at="2023-11-16T17:10:37 CET" name="Default test" finished-at="2023-11-16T17:10:54 CET" duration-ms="17014">
+      <class name="sis.pcm.stepdefinitions.POC1">
+        <test-method signature="method1()[pri:1, instance:sis.pcm.stepdefinitions.POC1@38102d01]" started-at="2023-11-16T17:10:37 CET" name="method1" finished-at="2023-11-16T17:10:54 CET" duration-ms="16864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- sis.pcm.stepdefinitions.POC1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
