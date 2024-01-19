@@ -47,7 +47,7 @@ public class common_pom extends baseclass {
 	public void waitForElement(WebElement element) {
 
 		wait = new WebDriverWait(ldriver, 10);
-		//wait = new WebDriverWait(ldriver, Duration.ofSeconds(20));
+		wait = new WebDriverWait(ldriver, Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 
